@@ -109,3 +109,29 @@ input[type="button"] {
   border-radius: 4px;
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+  #formDesign {
+    margin: 10px 50px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #formDesign {
+    margin: 10px 100px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #formDesign {
+    margin: 25px 200px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #formDesign {
+    margin: 25px 200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #formDesign {
+    margin: 50px 400px;
+  }
+}
