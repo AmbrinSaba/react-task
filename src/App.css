@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+input {
+  margin: 10px;
+  border: 2px solid rgb(85, 82, 82);
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+
+  margin: 50px;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#formDesign {
+  background-color: rgb(208 213 218 / 64%);
+  border: #031108 2px;
+  display: flex;
+  /* height: 50px; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 30px;
+  align-content: center;
+  justify-content: center;
+  margin: 50px 400px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+label {
+  align-self: left;
+  text-align: left;
+}
+#formDesign1 {
+  /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 5px; */
+
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  border-radius: 5px;
+
+  padding: 10px;
+
+  color: black;
+  width: 100%;
+  background-color: #415a42;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+.danger {
+  color: red;
+}
+
+#cardForm {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 200px;
+  padding: 100px;
+  color: red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  background-color: blueviolet;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="button"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
